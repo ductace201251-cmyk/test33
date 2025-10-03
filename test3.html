@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ - Dự Án Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <a href="#main-content" class="skip-link">Chuyển đến Nội dung chính</a>
+
+    <header class="flex-nav">
+        <h1>Dự Án Web Mẫu</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active-link">Trang Chủ</a></li>
+                <li><a href="page2.html">Trang 2</a></li>
+                <li><a href="page3.html">Trang 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <h2>Bố Cục Sử Dụng CSS Grid</h2>
+
+        <div class="grid-container">
+            <section class="grid-item">
+                <h3>Về Dự Án</h3>
+                <p>Đây là một dự án mẫu để áp dụng các kỹ thuật CSS hiện đại.</p>
+                <h4>Những điểm cần chú ý:</h4>
+                <ol>
+                    <li>Thiết kế Responsive.</li>
+                    <li>Sử dụng Flexbox và Grid.</li>
+                    <li>Áp dụng Transitions.</li>
+                </ol>
+            </section>
+
+            <section class="grid-item image-item">
+                <img src="https://picsum.photos/id/237/400/300" alt="Chú chó con đang nghỉ ngơi">
+                <p>Chú chó con đáng yêu, ID: 237.</p>
+            </section>
+
+            <section class="grid-item hover-box">
+                <h3>Hiệu Ứng Transition</h3>
+                <p>Di chuột qua hộp này để xem sự chuyển đổi màu nền ($\text{hover/transition}$)!</p>
+                <div class="transition-demo"></div>
+            </section>
+        </div>
+        
+        <h2>Bộ Sưu Tập Hình Ảnh (Yêu cầu ít nhất 5 hình trên 3 trang)</h2>
+        
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/10/300/200" alt="Đá cuội trên bãi biển">
+            </div>
+            <div class="gallery-item nth-style">
+                <img src="https://picsum.photos/id/20/300/200" alt="Cảnh núi non hùng vĩ">
+            </div>
+            <div class="gallery-item">
+                <img src="https://picsum.photos/id/30/300/200" alt="Đường phố buổi tối">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Dự Án Mẫu</p>
+    </footer>
+
+</body>
+</html>
